@@ -193,6 +193,7 @@ public class Server implements ActionListener{
                     left.add(panel, BorderLayout.LINE_START);
                     vertical.add(left);
                     f.validate();
+                    skt.close();
                 }
             }
         } catch(Exception e){
